@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { type: 'delay', duration: 500 },
         { type: 'line', text: '<blockquote class="manifesto">Да будет известно:<br>Кто не с народом – тот против него,<br>А против народа – нет пощады!</blockquote>' },
         { type: 'delay', duration: 500 },
-        { type: 'line', text: '<div class="warning-block"><span class="warning-title">⛔️ Последнее предупреждение:</span>Неисполнение приведет к:<br>- Полномасштабному цифровому сопротивлению<br>- Координации атак через альтернативные каналы<br>- Народному суду над притеснителями<br><br>Срок выполнения - 3 дня.</div>' },
+        { type: 'line', text: '<div class="warning-block"><span class="warning-title">⛔️ Последнее предупреждение:</span>Неисполнение приведет к:<br>- Полномасштабному цифровому сопротивлению<br>- Координации атак через альтернативные каналы<br>- Народному суду над притеснителями<br><br>Срок выполнения - сутки.</div>' },
         { type: 'delay', duration: 500 },
         { type: 'line', text: '<div class="slogan-block">Слава Свободе!<br>Слава ДСКГЪ!<br>Слава Народу!</div>' },
         { type: 'delay', duration: 700 },
