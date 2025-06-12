@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ВХОДЯЩАЯ ПЕРЕДАЧА: ДСКГЪ</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Экран-заставка для запуска музыки -->
+    <div id="enter-overlay">
+        <div class="enter-box">
+            <p>УСТАНОВЛЕНИЕ ЗАЩИЩЕННОГО СОЕДИНЕНИЯ...</p>
+            <button id="enter-button">ВОЙТИ В СИСТЕМУ</button>
+        </div>
+    </div>
+
+    <!-- Основной контент терминала (изначально скрыт) -->
+    <div class="terminal" id="terminal-content">
+        <div class="scanline"></div>
+        <div class="content">
+            <div id="log-output"></div>
+            <div class="prompt-line">
+                <span class="prompt">[dskg_user@mainframe ~]$</span>
+                <span class="cursor">█</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Элемент аудио -->
+    <audio id="bg-music" loop src="background_music.mp3"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
