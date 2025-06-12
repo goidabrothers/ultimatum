@@ -53,7 +53,7 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (block.type === 'command') {
                 const commandPrompt = document.createElement('div');
                 commandPrompt.className = 'prompt-line';
-                commandPrompt.innerHTML = `<span class="prompt">[dskg_user@soviet_mainframe ~]$</span> <span class="command"></span>`;
+                commandPrompt.innerHTML = `<span class="prompt">[dskg_user@mainframe ~]$</span> <span class="command"></span>`;
                 logOutput.appendChild(commandPrompt);
                 await typeWriter(commandPrompt.querySelector('.command'), block.text, 50);
             } else if (block.type === 'line') {
